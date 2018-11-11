@@ -1,0 +1,169 @@
+{
+  "ret": true,
+  "data": {
+    "swiperList": [{
+        "id": "0001",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1809/31/da037478f37cf202.jpg_750x200_a02cf862.jpg"
+      },{
+        "id": "0002",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1809/c6/2467595fffc3b302.jpg_750x200_cca13d51.jpg"
+      },{
+        "id": "0003",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1809/ff/1bf7d3a4f6591002.jpg_750x200_40809f2a.jpg"
+      },{
+        "id": "0004",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1810/fe/fd9c295c0e1a7602.jpg_750x200_11c8343f.jpg"
+      },{
+        "id": "0005",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1810/d3/51a22fafb250e502.jpg_750x200_e4d9c5ae.jpg"
+      },{
+        "id": "0006",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1809/12/856f100069809e02.jpg_750x200_e3485a2b.jpg"
+      },{
+        "id": "0007",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1809/86/deb33800de224c02.jpg_750x200_74fb795e.jpg"
+      },{
+        "id": "0008",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1809/69/8697f10f17f35a02.jpg_750x200_c98193a9.jpg"
+      },{
+        "id": "0009",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1809/47/7599053a2cb2ee02.jpg_750x200_c61be0c1.jpg"
+      }],
+    "iconList": [{
+        "id": "0001",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/95/f3dd6c383aeb3b02.png",
+        "desc": "景点门票"
+      }, {
+        "id": "0002",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1804/5a/13ceb38dcf262f02.png",
+        "desc": "一日游"
+      }, {
+        "id": "0003",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1804/ff/fdf170ee89594b02.png",
+        "desc": "杭州必游"
+      }, {
+        "id": "0004",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/76/eb88861d78fb9902.png",
+        "desc": "动植物园"
+      }, {
+        "id": "0005",
+        "imgUrl": "https://img1.qunarzz.com/piao/fusion/1803/20/831d62d2e1c7be02.png",
+        "desc": "打卡圣地"
+      }, {
+        "id": "0006",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/17/99402a22ce4af302.png",
+        "desc": "西湖"
+      }, {
+        "id": "0007",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/e3/67df61427c8e1302.png",
+        "desc": "杭州宋城景区"
+      }, {
+        "id": "0008",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/b8/c5dcdb58deec2402.png",
+        "desc": "西溪湿地"
+      }, {
+        "id": "0009",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/75/eca3ce656c886502.png",
+        "desc": "千岛湖"
+      }, {
+        "id": "0010",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/80/416c6ab3368d1f02.png",
+        "desc": "全部玩乐"
+      }],
+    "recommendList": [{
+        "id": "0001",
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/1411/b6/662fc49d1d26a5a7775cf6b7f8b4ecec.water.jpg_200x200_7dec115f.jpg",
+        "title": "杭州野生动物世界",
+        "commendNum": "5862",
+        "price": "170",
+        "desc": "这里最近很火哦，好多人都在点评它呢！",
+        "address": "富阳市"
+      }, {
+        "id": "0002",
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/1810/14/14b8a787d6e901f6a3.img.jpg_200x200_4a447e3c.jpg",
+        "title": "杭州云曼温泉",
+        "commendNum": "968",
+        "price": "125",
+        "address": "萧山"
+      }, {
+        "id": "0003",
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/1809/6b/6b0d71ae741a583da3.img.jpg_200x200_dc19cbb1.jpg",
+        "title": "杭州乐园",
+        "commendNum": "5466",
+        "price": "120",
+        "desc": "杭州本月收藏Top5╰(￣▽￣)╭",
+        "address": "萧山"
+      }, {
+        "id": "0004",
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/1409/19/adca619faaab0898245dc4ec482b5722.jpg_140x140_80f63803.jpg",
+        "title": "故宫",
+        "commendNum": "5466",
+        "price": "120",
+        "desc": "东方宫殿建筑代表，世界宫殿建筑典范",
+        "address": "萧山"
+      }, {
+        "id": "0005",
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/1511/d2/d2aec2dfc5aa771290.water.jpg_140x140_abb362a7.jpg",
+        "title": "南山滑雪场",
+        "commendNum": "5466",
+        "price": "120",
+        "desc": "北京专业级滑雪圣地",
+        "address": "萧山"
+      }, {
+        "id": "0006",
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/1501/f4/f467729126949c3a.water.jpg_140x140_ef235b1c.jpg",
+        "title": "天安门广场",
+        "commendNum": "5466",
+        "price": "120",
+        "desc": "我爱北京天安门，天安门上太阳升",
+        "address": "萧山"
+      }, {
+        "id": "0007",
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/1501/40/40b2b6c951b28fdd.water.jpg_140x140_1c863e5c.jpg",
+        "title": "水立方",
+        "commendNum": "5466",
+        "price": "120",
+        "desc": "中国的荣耀，阳光下的晶莹水滴",
+        "address": "萧山"
+      }, {
+        "id": "0008",
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/201308/23/b283071686e64dfec8d65eac.jpg_140x140_8c5a7c49.jpg",
+        "title": "温都水城养生馆",
+        "commendNum": "5466",
+        "price": "120",
+        "desc": "各种亚热带植物掩映其间仿佛置身热带雨林",
+        "address": "萧山"
+      }],
+    "weekendList": [{
+        "id": "0001",
+        "imgUrl": "http://img1.qunarzz.com/sight/source/1505/4e/3e87ee62e59cdb.jpg_r_640x214_fe6cc902.jpg",
+        "title": "杭州必游TOP10",
+        "desc": "杭州，前世今生与你有一场美丽约会"
+      }, {
+        "id": "0002",
+        "imgUrl": "http://img1.qunarzz.com/sight/source/1505/9f/7d45cc38259e0.jpg_r_640x214_156f4299.jpg",
+        "title": "承载杭城的历史之地",
+        "desc": "饱经沧桑的地方诉述着这座城的段段衷肠"
+      }, {
+        "id": "0003",
+        "imgUrl": "http://img1.qunarzz.com/sight/source/1509/8a/4cbf58944de788.jpg_r_640x214_1893da0a.jpg",
+        "title": "秋时景致美",
+        "desc": "火红的秋天，是杭州一年中最美的季节"
+      },{
+        "id": "0004",
+        "imgUrl": "http://img1.qunarzz.com/sight/source/1505/4e/3e87ee62e59cdb.jpg_r_640x214_fe6cc902.jpg",
+        "title": "杭州必游TOP10",
+        "desc": "杭州，前世今生与你有一场美丽约会"
+      }, {
+        "id": "0005",
+        "imgUrl": "http://img1.qunarzz.com/sight/source/1505/9f/7d45cc38259e0.jpg_r_640x214_156f4299.jpg",
+        "title": "承载杭城的历史之地",
+        "desc": "饱经沧桑的地方诉述着这座城的段段衷肠"
+      }, {
+        "id": "0006",
+        "imgUrl": "http://img1.qunarzz.com/sight/source/1509/8a/4cbf58944de788.jpg_r_640x214_1893da0a.jpg",
+        "title": "秋时景致美",
+        "desc": "火红的秋天，是杭州一年中最美的季节"
+      }]
+  }
+}
