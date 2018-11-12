@@ -36,6 +36,12 @@ Component({
         like: like,
         count: count
       })
+
+      let behavior = like ? 'like' : 'cancel'
+      //激活自定义事件, '事件名称', {属性}, {}
+      this.triggerEvent('like', {
+        behavior: behavior
+      }, {})
     }
   }
 })

@@ -3,7 +3,8 @@
 .container{
   display: inline-flex;
   flex-direction: row;
-  padding: 10px;
+  padding: 10rpx;
+  width: 90rpx;
 }
 
 .container image{
