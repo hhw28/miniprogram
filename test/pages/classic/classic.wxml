@@ -1,7 +1,13 @@
 <!--pages/classic/classic.wxml-->
 
-<view class='header'>
-  <v-like bind:like="onLike" like="{{classicData.like_status}}" count="{{classicData.fav_nums}}" />
-</view>
+<view class='container'>
+  <view class="header">
+    <v-epsoide class="epsoide" index="{{classicData.index}}"/>
+    <v-like class="like" bind:like="onLike" like="{{classicData.like_status}}" count="{{classicData.fav_nums}}" />
+  </view>
 
-<v-movie img="{{classicData.image}}" content="{{classicData.content}}" />
+  <v-movie img="{{classicData.image}}" content="{{classicData.content}}" />
+  <!-- <v-music img="{{classicData.image}}" content="{{classicData.content}}" /> -->
+
+  <v-navi bind:left="onNext" bind:right="onPrevious" class="navi" title="{{classicData.title}}" latest="{{latest}}" first="{{first}}" />
+</view>

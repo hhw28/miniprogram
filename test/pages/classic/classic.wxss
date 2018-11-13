@@ -1,2 +1,27 @@
 /* pages/classic/classic.wxss */
 
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.header{
+  width: 100%;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.epsoide{
+  margin-left: 20rpx;
+  margin-bottom: 10rpx;
+}
+.like{
+  margin-bottom: 4rpx;
+}
+
+.navi{
+  width: 550rpx;
+  position: absolute;
+  bottom: 50rpx;
+}

@@ -12,11 +12,19 @@ Page({
    */
   data: {
     classicData: null,
+    latest: true,
+    first: false,
   },
 
   onLike: function(e){
     let behavior = e.detail.behavior
     likeModel.getLikeStatus(behavior, this.data.classicData.id, this.data.classicData.type)
+  },
+  onNext: function(e){
+
+  },
+  onPrevious: function(e){
+
   },
 
   /**
