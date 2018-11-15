@@ -1,0 +1,11 @@
+{
+  "pages":[
+    "pages/canvas/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "painter",
+    "navigationBarTextStyle":"black"
+  }
+}

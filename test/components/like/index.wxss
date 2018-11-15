@@ -1,5 +1,3 @@
-/* components/like/index.wxss */
-
 .container{
   display: inline-flex;
   flex-direction: row;

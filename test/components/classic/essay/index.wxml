@@ -1,5 +1,5 @@
 <view hidden="{{hidden}}" class='container'>
   <image class='img' src="{{img}}" />
-  <image class='tag' src="images/movie@tag.png" />
+  <image class='tag' src="images/essay@tag.png" />
   <text>{{content}}</text>
 </view>

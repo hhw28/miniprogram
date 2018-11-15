@@ -1,0 +1,4 @@
+<view class="container">
+  <canvas style="width: {{canvasw}}px; height: {{canvash}}px" class="canvas" id="canvas" canvas-id="canvas" disable-scroll="true" bindtouchstart="canvasStart" bindtouchmove="canvasMove" bindtouchend="canvasEnd" touchcancel="canvasEnd" binderror="canvasIdErrorCallback"></canvas>
+  <button bindtap="cleardraw">清除画板</button>
+</view>

@@ -1,4 +1,4 @@
-// components/epsoide/index.js
+
 Component({
   /**
    * 组件的属性列表
@@ -8,7 +8,6 @@ Component({
       type: String,
       observer: function(newVal){
         let val = newVal < 10 ? '0' + newVal : newVal
-        console.log(val)
         this.setData({
           _index: val
         })
