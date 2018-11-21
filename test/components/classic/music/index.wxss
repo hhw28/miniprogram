@@ -19,6 +19,8 @@
 .container>text{
   font-size: 36rpx;
   max-width: 550rpx;
+  position: relative;
+  bottom: 85rpx;
 }
 
 .playBtn{

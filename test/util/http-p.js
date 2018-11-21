@@ -1,34 +1,43 @@
 import {config} from '../config.js'
 
-class HTTP{
-  request(params){
-    let url = config.api_base_url + params.url
+const tips = {
+  1: '抱歉，出现了一个错误',
+  1005: 'appkey无效',
+  3000: '期刊不存在'
+}
 
-    if (!params.method) {
-      params.method = 'GET'
-    }
+class HTTP{
+  request({url, data={}, method='GET'}){
+    return new Promise((resolve, reject) => {
+      this._request(url, resolve, reject, data, method)
+    })
+  }
+
+  _request(url, resolve, reject, data={}, method='GET'){
     wx.request({
-      url: url,
-      data: params.data,
-      method: params.method,
+      url: config.api_base_url + url,
+      data: data,
+      method: method,
       header: {
         'content-type': 'application/json',
         'appkey':config.appkey
       },
-      success: function (res) {
+      success: (res) => {
         // 判断以2（2xx)开头的状态码为正确
         // 异常不要返回到回调中，就在request中处理，记录日志并showToast一个统一的错误即可
-        var code = res.statusCode.toString()
+        const code = res.statusCode.toString()
         var startChar = code.charAt(0)
         if (startChar == '2') {
-          params.success && params.success(res.data)
+          resolve(res.data)
         } else {
+          reject(res)
           const error_code = res.data.error_code
           this._show_error(error_code)
         }
       },
-      fail: function (err) {
-        this._show_error(error_code)
+      fail: (err) => {
+        reject()
+        this._show_error(1)
       }
     })
   }
